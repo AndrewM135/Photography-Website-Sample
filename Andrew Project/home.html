@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Sample Photography Website</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'> 
+    <script src="js/link.js"></script>
+</head>
+
+<nav class="navigation-list">
+
+    <div class="container teal borderYtoX">
+        <a href="home.html"role="menuitem">HOME</a>
+        <a href="portfolio.html"role="menuitem">PORTFOLIO</a>
+        <a href="about.html"role="menuitem">ABOUT</a>
+        <a href="contact.html"role="menuitem">CONTACT</a>
+      </div>
+</nav>
+
+
+<header class="page-header">
+
+       <h1>Sample Of Photography Website</h1>
+       <p>This website and the code that made are an sample for someone to use for as a photography website. They can display there phtots and tell people about thier business or background on photography. It also links their socials and leaves contact information so to help them get more clients or grow thier portfolio.</p>
+
+</header>
+
+<div class="gallery">
+
+    <div style="background-image: url(img/example\ 1.jpg);"></div>
+    <div style="background-image: url(img/example\ 2.jpg);"></div>
+    <div style="background-image: url(img/example\ 3.jpg);"></div>
+    <div style="background-image: url(img/example\ 4.jpg);"></div>
+    <div style="background-image: url(img/example\ 5.jpg);"></div>
+
+</div>
+
+<style>
+    .gallery {
+        display: flex;
+        height: 20rem;
+        gap: 1rem;
+    }
+    .gallery > div {
+        flex: 1;
+        border-radius: 1rem;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: auto 100%;
+        transition: all .8s cubic-bezier(.25, .4, .45, 1.4);
+    }
+    .gallery > div:hover {
+        flex: 5;
+    }
+</style>
+
+<div class="social">
+    <p>See more of my work on!</p>
+    <span class="icon1"><i class="fa fa-facebook-f"></i></span>
+    <span class="icon2"><i class="fa fa-twitter"></i></span>
+    <span class="icon3"><i class="fa fa-instagram"></i></span>
+    <span class="icon4"><i class="fa fa-youtube-play"></i></span>
+</div>
+
+
+
